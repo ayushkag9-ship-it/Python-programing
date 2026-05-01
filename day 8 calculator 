@@ -1,0 +1,11 @@
+val1=int(input('give the first value:'))
+val2=int(input("give the second value:"))
+print("Total result isa:", val1 + val2)
+
+
+
+
+
+val3=int(input('give 1st value:'))
+val4=int(input('give 2nd vale:'))
+print('total result is:', val3 + val4)
