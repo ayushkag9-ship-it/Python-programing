@@ -1,0 +1,28 @@
+#helloooo user inputs isme kya huantha ki jo calculator bana tha na yaha se bana tha kai 
+a=input("inter your name :")
+print("my name is:", a)
+#calculator
+x=input('enter 1st no:')
+y=input('enter 2nd no:')
+print("the sum of x and y is",(int(x)+int(y)))
+print("the subtraction of x and y is",(int(x)-int(y)))
+print("the multiplication of x and y is",(int(x)*int(y)))
+print("the division of x and y is",(int(x)/int(y)))
+#for flots 
+print("this calculation for flots\n it is also use for integer")
+x1=input('enter 3rd no')
+y1=input('entet 4th no')
+print("the sum of x1 and y1 is",(float(x1)+float(y1)))
+print("the subtraction of x1 and y1 is",(float(x1)-float(y1)))
+print("the multiplication of x1 and y1 is",(float(x1)*float(y1)))
+print("the division of x1 and y1 is",(float(x1)/float(y1)))
+
+# let check complex nos can be add
+'''
+i cant do.thatin this time
+
+
+
+
+
+

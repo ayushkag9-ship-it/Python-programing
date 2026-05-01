@@ -1,0 +1,30 @@
+a="ayush"
+print(a)
+print("type of a is ",type(a))
+b= complex(1+1)
+print(b)
+print("type of b is ", type(b))
+c=1.1
+print(c)
+print("the type of c is ", type(c))
+d=None
+print(d)
+print("the type of d is " , type(d))
+e=complex(1+2j)
+print(e)
+print(type(e))
+#siquence data : list tuple 
+#list---(always in big bracket)
+list1=[123,234,534,["ayush","piyush"],234,123]
+print(list1)
+dict1={"name":"ravi","behaviour":"all time good", "marks":25}
+print(dict1)
+a1=2441
+a2=4536
+print(a1+a2)
+'''
+only same type of data types can add or sub 
+in python every thing is object
+float means 1.1 or many integer type values 
+and comolex no cant contai "i"it contai charcater "j"
+'''

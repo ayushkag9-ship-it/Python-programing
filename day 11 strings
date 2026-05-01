@@ -1,0 +1,11 @@
+#hyyyyyy what are strings 
+name ="ayush ji kag i am living in punjapura \n it located in dewas district \n in mp \n in india \n in asia"
+
+
+
+data="""i am 12 th pass out student
+i want to become an data scientist 
+i daily gives time or my coding
+and i am dedicated to it"""
+print(data)
+

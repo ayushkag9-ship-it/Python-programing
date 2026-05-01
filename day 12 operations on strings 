@@ -1,0 +1,25 @@
+#len = length of a string 
+a=1
+b=2
+print(a+b)
+ 
+a1="hello world"
+print(a1)
+
+fruit="mango"
+print(fruit)
+print(fruit[1:4])
+mangolen=len(fruit)
+print(mangolen)
+print(fruit[-4:3])
+print(fruit[:5])
+print(fruit[0:-4])
+'''
+now taking line 14
+in this line we have negative no so our python  automatic cancle it by mangolen that is len(fruit) which is 5 
+look it
+'''
+print(fruit[len(fruit)-4:3])
+# now for line 16
+print(fruit[0:len(fruit)-4])
+print("mango is a",len(fruit),"letter word")

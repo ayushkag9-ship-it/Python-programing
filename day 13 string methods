@@ -1,0 +1,102 @@
+#hy this is day 13 of pythonn
+a=('ayush')
+print(a)
+print(len(a))
+print(a.upper())
+print(a.lower())
+
+#rstrip:
+b='ayush!!!!!'
+print(b)
+print(b.rstrip("!"))
+print(b.upper(),b.rstrip("!"))
+# yeh exclimetry sign hat jata rstrip se 
+
+#replace:
+print(a.replace("ayush","lata"))
+
+#split
+c= ('ayush bhagwati dilip ishika')
+print(c.split(" "))
+#yeh gape se split hoga or ek rist me convert hojayega 
+
+#capitalize:
+blogheading='inTROduction To mE'
+print(blogheading.capitalize())
+#and sand likh rakha he na usko sudhar ka de deta he acche se proper way me likh kr 
+
+#centre:
+str1=("my name is ayush kag ")
+print(str1.center(300))
+print(len(str1.center(300)))
+print(len(blogheading))
+#yeh 100 na space dewa gai 100 
+#yeh line chorde me kam karega console me 
+
+#count
+print(str1.count('m'))
+'''
+kon sa character kitne no of times use hua he yeh ye batayega 
+'''
+
+
+"""
+val1=int(input("1st no is"))
+val2=int(input("2nd no is"))
+print(val1+val2)
+"""
+
+
+
+#{endswith}
+str2=("my name is ayush kag")
+print(str2.endswith("kag"))
+
+#{find}
+print(str2.find('a'))
+
+#{index}
+#print(str2.index('l'))
+#if we use index it shown error b'coz "l" is not hear
+print(str2.find('l')) #this shows -1 
+
+#isalnum
+#A to Z ,a to z, 0 to 9}this called alfa numarics
+str3='AyUSHKAG'
+str4='ayushkag'
+str5='36agwhs366'
+print(str3.isalnum())
+print(str4.isalnum())
+print(str5)
+print(str5.isalnum())
+
+#isalfas 
+#A to Z and a to z
+#and no other than that
+
+#Islower
+print(str4.islower())
+
+#isprintable------ [\n] inpritable 
+str6='my name is ayush\n i live in punjapura '
+print(str6)
+print(str6.isprintable())
+
+# isspace
+str7='    '
+print(str7.isspace())
+
+#istitle
+x= "World Health Orginaisation"
+print(x.istitle())
+
+#isupper
+str8="World wide currency"
+print(str8.isupper())
+
+#swapcase( yeh na big ko small or small ko big karta he ) 
+print(str8.swapcase())
+ 
+ 
+#title(sabhi words ka 1st latter capital kar deta he)
+print(str8.title())
